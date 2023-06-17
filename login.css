@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    height: 100dvh;
+    width: 100dvw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form_section {
+    min-height: 100dvh;
+    min-width: 50dvw;
+    font-size: 1rem;
+    font-size: bold;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form_forlogin {
+    min-height: 100dvh;
+}
+
+.image_section {
+    min-height: 100dwh;
+   min-width: 50dvw;
+   border-left: 1px solid #000;
+}
+.image_section > img {
+    height: 100dvh;
+    width: 100%;
+}
